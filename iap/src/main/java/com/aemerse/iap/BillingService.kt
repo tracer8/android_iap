@@ -102,6 +102,7 @@ class BillingService(
                     listOf(
                         BillingFlowParams.ProductDetailsParams.newBuilder()
                             .setProductDetails(productDetails)
+                            .setOfferToken("")
                             .build()
                     )
                 val billingFlowParams = BillingFlowParams.newBuilder()
